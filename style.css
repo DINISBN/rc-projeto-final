@@ -4,13 +4,25 @@ body {
 }
 
 header {
+  display: flex;
   text-align: center;
   height: 80px;
+  gap: 30px;
 }
 
 img {
   width: 60px;
   height: 60px;
+}
+
+a.page {
+  text-align: left;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h3 {
+  color: black; 
 }
 
 
@@ -24,6 +36,10 @@ img {
   border-radius: 20px;
   margin: 0 auto; /* center img */
   zoom: 85%;
+}
+
+a {
+  cursor: pointer;
 }
 
 .slide {
@@ -76,5 +92,24 @@ img {
   50%{
     opacity: 0;
   }
+
+}
+
+section {
+  padding-left: 13rem;
+  
+  span {
+    color: red;
+    font-weight: bold;
+  }
+}
+
+footer {
+  padding-top: 3rem;
+  text-align: center;
+
+}
+.paragrafo {
+  font-weight: bold;
 
 }
