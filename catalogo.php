@@ -24,6 +24,7 @@
         </div>
         <div class="row">
           <div class="row-2">
+            <!-- Produto 1 -->
             <div class="box-product-block">
               <div class="product-block">
                 <div class="product-block-box">
@@ -48,6 +49,44 @@
                       <h6 class="brand"></h6>
                       <h4>
                         <a href="/camisola-1">Camisola 1</a>
+                      </h4>
+                      <div class="list-price">
+                        <span class="form_price">Desde </span>
+                        <span class="product-block-normal">19,99€</span>
+                        <span class="product-block-discount">29,99€</span>
+                      </div>
+                      <small class="sku"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Produto 2 -->
+            <div class="box-product-block">
+              <div class="product-block">
+                <div class="product-block-box">
+                  <div class="product-block-box_content">
+                    <!-- Desconto Badge -->
+                    <div class="badges">
+                      <div class="sale-tag">
+                        <span>24%</span>
+                        <span>Promoçao</span>
+                      </div>
+                    </div>
+
+                    <!-- Desconto Badge -->
+                    <div class="box-product">
+                      <a href="/camisola-2" class="product-image">
+                        <img src="img/t-shirtbr.png" alt="Camisola 2" width="510" height="510" loading="lazy">
+                      </a>
+                    </div>
+
+                    <!-- Informaçao -->
+                    <div class="caption">
+                      <h6 class="brand"></h6>
+                      <h4>
+                        <a href="/camisola-2">Camisola 2</a>
                       </h4>
                       <div class="list-price">
                         <span class="form_price">Desde </span>
