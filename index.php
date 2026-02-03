@@ -11,7 +11,7 @@
         <img src="img/logods.png" />
       </a>
       <a href="catalogo.php" class="page">
-        <h3>Catálogo 1</h3> 
+        <h3>Catálogo</h3> 
       </a>
     </header>
 
