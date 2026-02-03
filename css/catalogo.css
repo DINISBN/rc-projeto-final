@@ -1,0 +1,94 @@
+/* Secção do catálogo – garantir que é visível */
+.container-fluid.featured-products.common-products-section {
+  display: block;
+  visibility: visible;
+  padding: 2rem 0;
+  min-height: 100px;
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.row-1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  flex: 0 0 100%;
+  max-width: 100%;
+  display: block;
+  width: 100%;
+}
+
+.block-header {
+  position: relative;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin: 0 0 0.5rem 0;
+  display: block;
+}
+
+.block-header-separator {
+  background-color: #296dd1;
+  display: block;
+  width: 50px;
+  height: 3px;
+  border-radius: 5px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row-2 {
+  flex: 0 0 50%; 
+  max-width: 50%;
+}
+
+.box-product-block {
+  box-sizing: border-box;
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.product-block {
+  text-align: left;
+  height: 100%;
+  transition: all .2s linear !important;
+}
+
+.product-block-box {
+  display: flex;
+  overflow: hidden;
+  min-height: 200px; /* evita colapsar quando está vazio */
+  flex-direction: column;
+  padding: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  background-color: #fff;
+  font-size: 16px;
+}
+
+.product-block-box_content {
+  position: relative;
+  overflow: hidden;
+  flex-grow: 1;
+}
