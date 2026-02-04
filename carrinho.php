@@ -1,3 +1,6 @@
+<?php
+if (session_status() === PHP_SESSION_NONE) session_start();
+?>
 <!DOCTYPE html>
 <html lang="pt">
   <head>
@@ -22,6 +25,15 @@
       <a href="catalogo.php" class="page">
         <h3>Catálogo</h3>
       </a>
+      <?php if (isset($_SESSION['user'])): ?>
+        <a href="logout.php" class="page">
+          <h3>Logout</h3>
+        </a>
+      <?php else: ?>
+        <a href="login.php" class="page">
+          <h3>Login</h3>
+        </a>
+      <?php endif; ?>
       <div>
         <?php include 'cart.php'; ?>
       </div>
