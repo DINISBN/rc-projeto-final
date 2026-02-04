@@ -64,11 +64,11 @@ if (session_status() === PHP_SESSION_NONE) session_start();
           <!-- Card 2 -->
           <div class="product-card">
             <div class="card-badge sale">24%<br>PROMOÇÃO</div>
-            <a href="/camisola-2" class="card-image">
+            <a href="404.php" class="card-image">
               <img src="img/man-1.png" alt="CAMISOLA MAN. UNITED PRINCIPAL 2025/26">
             </a>
             <div class="card-info">
-              <h4><a href="/camisola-2">CAMISOLA MAN. UNITED PRINCIPAL 2025/26</a></h4>
+              <h4>CAMISOLA MAN. UNITED PRINCIPAL 2025/26</h4>
               <div class="card-price">
                 <span class="form_price">Desde</span>
                 <span class="price-current">34€ EUR</span>
@@ -80,11 +80,11 @@ if (session_status() === PHP_SESSION_NONE) session_start();
           <!-- Card 3 -->
           <div class="product-card">
             <div class="card-badge sale">26%<br>PROMOÇÃO</div>
-            <a href="/camisola-2" class="card-image">
+            <a href="404.php" class="card-image">
               <img src="img/man-2.png" alt="CAMISOLA MAN. UNITED SECUNDÁRIA 2025/26">
             </a>
             <div class="card-info">
-              <h4><a href="/camisola-2">CAMISOLA MAN. UNITED SECUNDÁRIA 2025/26</a></h4>
+              <h4>CAMISOLA MAN. UNITED SECUNDÁRIA 2025/26</h4>
               <div class="card-price">
                 <span class="form_price">Desde</span>
                 <span class="price-current">29€ EUR</span>
