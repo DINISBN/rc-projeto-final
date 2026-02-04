@@ -19,6 +19,9 @@
       <a href="index.php" class="page">
         <h3>Início</h3>
       </a>
+      <a href="catalogo.php" class="page">
+        <h3>Catálogo</h3>
+      </a>
       <div>
         <?php include 'cart.php'; ?>
       </div>

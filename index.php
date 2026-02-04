@@ -11,10 +11,13 @@
   <body>
     <header>
       <a href="index.php" class="logo">
-        <img src="img/logods.png" />
+        <img src="img/logods.png" alt="Logo da loja" />
+      </a>
+      <a href="index.php" class="page">
+        <h3>Início</h3>
       </a>
       <a href="catalogo.php" class="page">
-        <h3>Catálogo</h3> 
+        <h3>Catálogo</h3>
       </a>
     </header>
 

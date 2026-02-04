@@ -39,7 +39,7 @@
   }
 </style>
 
-<a href="/carrinho.php" class="cart-icon">
+<a href="carrinho.php" class="cart-icon">
   <svg viewBox="0 0 24 24">
     <circle cx="9" cy="21" r="1"></circle>
     <circle cx="20" cy="21" r="1"></circle>
