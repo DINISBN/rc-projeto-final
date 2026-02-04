@@ -39,22 +39,22 @@ if (session_status() === PHP_SESSION_NONE) session_start();
     <!-- Carousel Imgs -->
     <div class="slides">
       <div class="slide slide-1">
-        <a href="">
+        <a href="casaco.php">
           <img src="img/est1.jpg" alt="Imagem do estádio 1" />
         </a>
       </div>
       <div class="slide slide-2">
-        <a href="">
+        <a href="casaco.php">
           <img src="img/est2.jpg" alt="Imagem do estádio 2" />
         </a>
       </div>
       <div class="slide slide-3">
-        <a href="">
+        <a href="casaco.php">
           <img src="img/casaco-es1.png" alt="Imagem do casaco 1" />
         </a>
       </div>
       <div class="slide slide-4">
-        <a href="">
+        <a href="casaco.php">
           <img src="img/casaco-es2.png" alt="Imagem do casaco 2" />
         </a>
       </div>
