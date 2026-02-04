@@ -2,14 +2,14 @@
 if (session_status() === PHP_SESSION_NONE) session_start();
 ?>
 <!DOCTYPE html>
-<html lang="pt">
+<html>
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catálogo - Loja de Roupa</title>
     <link rel="icon" type="image/x-icon" href="logo.jpg">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="catalogo.css">
+    <link rel="stylesheet" href="css/catalogo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -48,8 +48,8 @@ if (session_status() === PHP_SESSION_NONE) session_start();
           <!-- Card 1 -->
           <div class="product-card">
             <div class="card-badge sale">24%<br>PROMOÇÃO</div>
-            <a href="/camisola-1" class="card-image">
-              <img src="img/t-shirt.png" alt="Camisola Portugal Principal 2025">
+            <a href="t-shirt.php" class="card-image">
+              <img src="img/t-shirt.png" alt="T-SHIRT 2025/26">
             </a>
             <div class="card-info">
               <h4>T-SHIRT PRINCIPAL 2025/26</h4>
@@ -65,7 +65,7 @@ if (session_status() === PHP_SESSION_NONE) session_start();
           <div class="product-card">
             <div class="card-badge sale">24%<br>PROMOÇÃO</div>
             <a href="/camisola-2" class="card-image">
-              <img src="img/man-1.png" alt="Camisola Sporting Principal 2025/26">
+              <img src="img/man-1.png" alt="CAMISOLA MAN. UNITED PRINCIPAL 2025/26">
             </a>
             <div class="card-info">
               <h4><a href="/camisola-2">CAMISOLA MAN. UNITED PRINCIPAL 2025/26</a></h4>
@@ -81,7 +81,7 @@ if (session_status() === PHP_SESSION_NONE) session_start();
           <div class="product-card">
             <div class="card-badge sale">26%<br>PROMOÇÃO</div>
             <a href="/camisola-2" class="card-image">
-              <img src="img/man-2.png" alt="Camisola Sporting Principal 2025/26">
+              <img src="img/man-2.png" alt="CAMISOLA MAN. UNITED SECUNDÁRIA 2025/26">
             </a>
             <div class="card-info">
               <h4><a href="/camisola-2">CAMISOLA MAN. UNITED SECUNDÁRIA 2025/26</a></h4>
@@ -96,11 +96,11 @@ if (session_status() === PHP_SESSION_NONE) session_start();
           <!-- Card 4 -->
           <div class="product-card">
             <div class="card-badge sale">20%<br>PROMOÇÃO</div>
-            <a href="/camisola-2" class="card-image">
-              <img src="img/casaco1.png" alt="Camisola Sporting Principal 2025/26">
+            <a href="casaco.php" class="card-image">
+              <img src="img/casaco1.png" alt="CASACO 2025/26">
             </a>
             <div class="card-info">
-              <h4><a href="/camisola-2">CASACO 2025/26</a></h4>
+              <h4>CASACO 2025/26</h4>
               <div class="card-price">
                 <span class="form_price">Desde</span>
                 <span class="price-current">44€ EUR</span>
