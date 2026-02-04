@@ -8,6 +8,7 @@ header {
   text-align: center;
   height: 80px;
   gap: 30px;
+  font-family: 'Poppins', sans-serif;
 }
 
 img {
@@ -113,3 +114,4 @@ footer {
   font-weight: bold;
 
 }
+

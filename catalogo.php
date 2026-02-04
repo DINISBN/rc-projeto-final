@@ -1,107 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt">
   <head>
-    <title>Catálogo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo - Loja de Roupa</title>
     <link rel="icon" type="image/x-icon" href="logo.jpg">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/catalogo.css">
+    <link rel="stylesheet" href="catalogo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
-    <a href="index.php" class="logo">
-        <img src="img/logods.png" />
+      <a href="index.php" class="logo">
+        <img src="img/logods.png" alt="Logo da loja" />
       </a>
+      <a href="index.php" class="page">
+        <h3>Início</h3>
+      </a>
+      <div>
+        <?php include 'cart.php'; ?>
+      </div>
     </header>
 
-    <div class="container-fluid featured-products common-products-section">
-      <div class="container">
-        <div class="row">
-          <!-- Titulo Page -->
-          <div class="row-1">
-            <h2 class="block-header">Produtos em destaque</h2>
-            <span class="block-header-separator"></span>
-          </div>
-        </div>
-        <div class="row">
-          <div class="row-2">
-            <!-- Produto 1 -->
-            <div class="box-product-block">
-              <div class="product-block">
-                <div class="product-block-box">
-                  <div class="product-block-box_content">
-                    <!-- Desconto Badge -->
-                    <div class="badges">
-                      <div class="sale-tag">
-                        <span>24%</span>
-                        <span>Promoçao</span>
-                      </div>
-                    </div>
+    <main>
+      <div class="catalog-section">
+        <h2 class="catalog-title">Produtos em destaque</h2>
+        <span class="catalog-separator"></span>
 
-                    <!-- Desconto Badge -->
-                    <div class="box-product">
-                      <a href="/camisola-1" class="product-image">
-                        <img src="img/t-shirt.jpg" alt="Camisola 1" width="510" height="510" loading="lazy">
-                      </a>
-                    </div>
-
-                    <!-- Informaçao -->
-                    <div class="caption">
-                      <h6 class="brand"></h6>
-                      <h4>
-                        <a href="/camisola-1">Camisola 1</a>
-                      </h4>
-                      <div class="list-price">
-                        <span class="form_price">Desde </span>
-                        <span class="product-block-normal">19,99€</span>
-                        <span class="product-block-discount">29,99€</span>
-                      </div>
-                      <small class="sku"></small>
-                    </div>
-                  </div>
-                </div>
+        <div class="catalog-cards">
+          <!-- Card 1 -->
+          <div class="product-card">
+            <div class="card-badge sale">24%<br>PROMOÇÃO</div>
+            <a href="/camisola-1" class="card-image">
+              <img src="img/t-shirt.png" alt="Camisola Portugal Principal 2025">
+            </a>
+            <div class="card-info">
+              <h4>T-SHIRT PRINCIPAL 2025/26</h4>
+              <div class="card-price">
+                <span class="form_price">Desde</span>
+                <span class="price-current">19€ EUR</span>
+                <span class="price-old">25€ EUR</span>
               </div>
             </div>
+          </div>
 
-            <!-- Produto 2 -->
-            <div class="box-product-block">
-              <div class="product-block">
-                <div class="product-block-box">
-                  <div class="product-block-box_content">
-                    <!-- Desconto Badge -->
-                    <div class="badges">
-                      <div class="sale-tag">
-                        <span>24%</span>
-                        <span>Promoçao</span>
-                      </div>
-                    </div>
+          <!-- Card 2 -->
+          <div class="product-card">
+            <div class="card-badge sale">24%<br>PROMOÇÃO</div>
+            <a href="/camisola-2" class="card-image">
+              <img src="img/man-1.png" alt="Camisola Sporting Principal 2025/26">
+            </a>
+            <div class="card-info">
+              <h4><a href="/camisola-2">CAMISOLA MAN. UNITED PRINCIPAL 2025/26</a></h4>
+              <div class="card-price">
+                <span class="form_price">Desde</span>
+                <span class="price-current">34€ EUR</span>
+                <span class="price-old">45€ EUR</span>
+              </div>
+            </div>
+          </div>
 
-                    <!-- Desconto Badge -->
-                    <div class="box-product">
-                      <a href="/camisola-2" class="product-image">
-                        <img src="img/t-shirtbr.png" alt="Camisola 2" width="510" height="510" loading="lazy">
-                      </a>
-                    </div>
+          <!-- Card 3 -->
+          <div class="product-card">
+            <div class="card-badge sale">26%<br>PROMOÇÃO</div>
+            <a href="/camisola-2" class="card-image">
+              <img src="img/man-2.png" alt="Camisola Sporting Principal 2025/26">
+            </a>
+            <div class="card-info">
+              <h4><a href="/camisola-2">CAMISOLA MAN. UNITED SECUNDÁRIA 2025/26</a></h4>
+              <div class="card-price">
+                <span class="form_price">Desde</span>
+                <span class="price-current">29€ EUR</span>
+                <span class="price-old">39€ EUR</span>
+              </div>
+            </div>
+          </div>
 
-                    <!-- Informaçao -->
-                    <div class="caption">
-                      <h6 class="brand"></h6>
-                      <h4>
-                        <a href="/camisola-2">Camisola 2</a>
-                      </h4>
-                      <div class="list-price">
-                        <span class="form_price">Desde </span>
-                        <span class="product-block-normal">19,99€</span>
-                        <span class="product-block-discount">29,99€</span>
-                      </div>
-                      <small class="sku"></small>
-                    </div>
-                  </div>
-                </div>
+          <!-- Card 4 -->
+          <div class="product-card">
+            <div class="card-badge sale">20%<br>PROMOÇÃO</div>
+            <a href="/camisola-2" class="card-image">
+              <img src="img/casaco1.png" alt="Camisola Sporting Principal 2025/26">
+            </a>
+            <div class="card-info">
+              <h4><a href="/camisola-2">CASACO 2025/26</a></h4>
+              <div class="card-price">
+                <span class="form_price">Desde</span>
+                <span class="price-current">44€ EUR</span>
+                <span class="price-old">55€ EUR</span>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </main>
   </body>
 </html>
